@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+/* HEADER */
+
+header {
+  background-color: #11223b;
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0 400px;
+}
+a,
+p,
+footer,
+button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+ul {
+  margin-left: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+ul li {
+  list-style: none;
+}
+
+/* END HEADER */
+
+/* CONTENT 1 */
+
+.content1 {
+  background-color: #11223b;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 100px 400px;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  max-width: 450px;
+}
+
+.button1 {
+  background-color: #3882f6;
+  padding: 10px;
+  max-width: 100px;
+  border-radius: 10px;
+}
+
+.text1,
+.image {
+  width: 450px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CONTENT2 */
+h2 {
+  color: #1f2937;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 400px;
+}
+
+.squares {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 0 0;
+}
+
+.squares div {
+  border: 3px solid #3882f6;
+  padding: 80px;
+  border-radius: 20px;
+  max-width: 150px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.texts div {
+  max-width: 150px;
+}
+
+/* CONTENT 2 END */
+
+/* CONTENT3 */
+
+.content3 {
+  background-color: #e5e7eb;
+  padding: 150px 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content3 p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+.quote {
+  align-self: flex-end;
+  margin-right: 65px;
+  font-size: 20px;
+}
+
+/* CONTENTT3 END */
+
+/* CONTENT 4 */
+
+.content4 {
+  padding: 150px 350px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 10px;
+}
+.background {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.button2 {
+  background-color: #3882f6;
+  padding: 10px;
+  max-width: 100px;
+
+  border-radius: 10px;
+  border-color: #e5e7eb;
+}
+/* CONTENNT 4 END */
+
+/* FOOTER */
+
+footer {
+  background-color: #11223b;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ENDFOOTER */
